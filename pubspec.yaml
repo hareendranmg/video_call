@@ -1,0 +1,23 @@
+name: video_call
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.16.2 <3.0.0'
+
+dependencies: 
+  # agora_rtc_engine: ^5.1.0
+  agora_uikit: ^0.0.4
+  # permission_handler: ^9.2.0
+  get: ^4.6.1
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^1.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
